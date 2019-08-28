@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/brennaksamuel/Applications/hmrc-development-environment/hmrc/CafePractical/src/test/scala/CafeOrderSpec.scala:106:42: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m        val order: List[MenuItem] = List(, Cola)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/brennaksamuel/Applications/hmrc-development-environment/hmrc/CafePractical/src/test/scala/CafeOrderSpec.scala:111:7: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      }[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -1,0 +1,22 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mCafeOrderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCalculate bill[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total cost with no service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items are drinks[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total cost with 10% service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items contain any food[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total cost with 20% service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items contain any hot food[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total cost with 20% service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items contain any hot food with a maximum £20 service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total cost with 25% service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items contain any premium food with a maximum £40 service charge[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total bill with no discounts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items doesn't contain any premium food and the customer has a loyalty card with less than 3 stars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total bill with discounts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items doesn't contain any premium food and the customer has a loyalty card with 3 stars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total bill with no discounts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items contain any premium food and the customer has a loyalty card with 5 stars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total bill with discounts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items doesn't contain any premium food and the customer has a loyalty card with 8 stars[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  should return total bill with discounts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when the purchased items doesn't contain any premium food and the customer has a loyalty card with 10 stars[0m[0m
